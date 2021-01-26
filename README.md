@@ -2,14 +2,13 @@
 
 当今随着开源软件使用越来越多，大家对合规的要求也越来越高。合规分为license合规、copyright合规、专利合规、出口管制合规、GDPR合规、商业秘密合规、商标合规等。
 
-#### License compliance背景和困难
-openEuler集成依赖了上游数千个开源组件，组件和组件之间也存在着复杂的依赖关系，RPM包的管理机制也带来了license合规的一些困难，目前我们看到的主要有以下几种情况：
+#### License compliance背景
+openEuler集成依赖了上游数千个开源组件，组件和组件之间也存在着复杂的依赖关系，加上RPM包的管理机制，合规过程中需要大量的人力，我们希望通过该SIG提升社区的合规的工程能力：
 
-- 这些组件的license不能覆盖其下的文件时，需要对文件级的license，大大增加了管理的难度；例如：PHP
-- openEuler的Mulan 2.0的license是否和其依赖的开源软件兼容；直接依赖的软件和间接依赖的软件之间是否兼容，需要人工判断，工作量巨大；例如：木兰和ApacheV2.0、木兰和GPLV2.0、GPLV2.0和MIT等
-- 新引入组件的license有哪些风险是需要注意的；例如：copyleft的license
-- 上游社区依赖软件新的版本license变更后怎么办？例如：mangoDB、ES
-- RPM包的spec文件license和原生社区的license不一致的时候怎么办？例如：greenlet组件
+- 解决文件级license的问题。例如：PHP
+- 解决新引入组件的license的判断问题。
+- 解决上游组件license变更的问题。例如：mangoDB、ES
+- 解决RPM包的spec文件license和原生社区的license不一致的问题。例如：greenlet组件
 
 #### copyright合规介绍
 
