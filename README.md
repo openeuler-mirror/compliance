@@ -1,23 +1,31 @@
 # compliance
 
-#### 介绍
-Improve community members compliance capability,define the rules, develop the tools and suuply services.
+开源软件的使用已经渗透到多种行业，针对开源软件开发、使用的合规问题也越发得到重视。根据开源软件的生命周期和使用范围，将开源合规分为**license 合规 、 copyright 合规 、 专利合规 、 出口管制合规 、 GDPR 合规 、 商业秘密合规 、 商标合规**等。本小组专注于合规相关领域的研究，将研究结果通过意见、工具等形式提供给社区进行开源合规管理的支持。
 
-#### 软件架构
-软件架构说明
+#### License Compliance 背景介绍
+openEuler 作为操作系统开源社区，本身使用是的木兰 V2 版本协议，下游多家商业公司基于 openEuler 制作了商业发行版。openEuler 操作系统集成了上游开源社区数万个开源项目，这些项目使用了各种 License 。openEuler 使用的木兰 V2 协议和这些上游项目使用的开源协议之间是否存在不兼容情况，这些上游项目是本身是否存在协议不兼容的问题，需要有一系列的规则和工具来解决。譬如：
+
+- 解决文件级license的问题。例如：PHP
+- 解决新引入组件的license的判断问题。
+- 解决上游组件license变更的问题。例如：mangoDB、ES
+- 解决RPM包的spec文件license和原生社区的license不一致的问题。例如：greenlet组件
+
+#### copyright合规介绍
+
+#### 出口管制合规介绍
 
 
-#### 安装教程
+我们希望通过该SIG制定满足社区的规则，并将规则build-in到流程中，通过工具和工程方法落地这些规则，最后可以提供解决方案或服务给参与社区的组织和个人。
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
 
-#### 使用说明
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+#### 目标
+1、梳理业务问题
+2、洞察业界标杆社区、标准、规则、形成方法论
+3、发布license相关规则
+4、设计业务架构
+5、设计软件架构
+6、软件开发
 
 #### 参与贡献
 
