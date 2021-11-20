@@ -1,0 +1,21 @@
+# 合规工具介绍
+## License
+
+合规工具相关的介绍材料遵从CC-BY-SA-4.0 许可协议，协议内容详见[CC-BY-SA-4.0.LICENSE](https://gitee.com/openeuler/compliance/blob/master/LICENSES/CC-BY-SA-4.0.LICENSE)。
+
+
+## 简介
+openEuler合规SIG正在规划一系列开源合规工具，工具名称命名参考三国人物相关典故。
+
+
+|工具名称  |输入项  |输出项  |功能描述  |典故  |
+|---|---|---|---|---|
+|曹冲    |Repo或者PR的文件后缀           |Repo或者PR的文件类型	   |"曹冲"工具是基于识别repo或者PR的中文件后缀名和文件的前4字节（魔数），将文件分为源代码、多媒体、富文本、文本文件等类型    |曹冲称象，化整为零 |
+|华佗	|Repo或者PR的源码	            |Repo或者PR的源码的开源代码片段引用情况、开源代码文件引用情况    |"华佗"工具扫描repo或者PR的源码的开源成分，识别源码中的开源代码片段引用、文件引用，并显示引用的开源代码的license、copyright、漏洞信息   |华佗治病，寻根溯源	|
+|张飞	|Repo或者PR的文本文件以及源码文件中的注释内容	|Repo或者PR的文本文件中的license & copyright清单    |"张飞"通过扫描repo或者PR的文本文件以及源码文件中的注释内容，获取repo或者PR的license & copyright清单   |张飞在长坂桥上一夫当关万夫莫开		|
+|吕蒙	|Repo或PR扫描输出的license文本内容	        |与现有license的文本内容的差异信息，并判断属于哪个现有license|	"吕蒙"工具比较repo或PR扫描输出的license的文本内容与现有的license文本内容的差异，识别license是否为现有license、是否为现有license的变种license。 |士别三日当刮目相看	|
+|周瑜	|License的文本内容或license的名称	        |识别license是否为SPDX标准的license，若是则输出license的SPDX标准ID,和其他别名。如果不是，输出license的其他非标准别名.|	"周瑜"根据license的文本内容或license名称，识别其是否是属于SPDX标准的license，若是则输出SPDX标准的license ID；若不是，则输出license的其他非标准别名. |周郎顾曲、文韬武略，三国标准全才	|
+|水镜	| License名称                                  |License是否通过FSF或OSI认证  |"水镜"识别给定的license是否通过FSF认证或OSI认证   |水镜出品（卧龙凤雏），必属精品	|
+|庞统	|License名称	        |对license文本信息从权利、义务、限制三个维度进行解读，输出解读后的标签信息    |"庞统"对license文本信息进行解读，输出其按照权利、义务和限制条件三个维度进行解读的标签信息   |献计征蜀，给出上中下三策由主公定夺		|
+|貂蝉	|License文本内容或名称，合规工具的命令指令	    |License门户网站，并提供license查询、license可调用API接口，以及合规工具的命令运行结果。    |"貂蝉"是整个工具链的门户，提供合规元数据，为工具提供web整合显示页面。已收录500+ license元数据信息，同时为整个工具链提供低使用成本的SAAS化运行平台  |貂蝉身姿俏美，细耳碧环，行时风摆杨柳，静时文雅有余，貂蝉之美，蔚为大观	|
+|孔明	|Repo或者PR的文本文件以及源码文件	        |合规扫描结果可视化报告展示，形成风险预警看板      |"孔明"整合合规工具的扫描结果，提供repo或者PR的可视化的风险预警看板    |运筹帷幄之中，决胜千里之外		|
