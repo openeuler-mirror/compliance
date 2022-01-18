@@ -1,4 +1,4 @@
-# 合规指导书
+# 合规指导书  Version: V0.1beta
 
 # 1. 基本概念
 
@@ -44,7 +44,7 @@ License的条款由权利、义务、限制三种组成：
 - 义务：你使用这个软件时必须履行什么样的义务
 - 限制：你不能够做什么事情
 
-![许可证分析](../img/guideline/license-anlyzer.png)
+![许可证分析](./img/license-anlyzer.png)
 
 设计一个许可证的三步曲：
 
@@ -68,7 +68,7 @@ License的条款由权利、义务、限制三种组成：
 
 常见的License类型除了本文重点关注的自由开源类许可证外，还包括商业类许可证，其它非自由开源软件的许可证，公共领域等。
 
-![License分类](../img/guideline/license-category.png)
+![License分类](./img/license-category.png)
 
 
 
@@ -316,7 +316,7 @@ CC0-1.0：CC0 没有被明确拒绝，但OSI许可审查委员会未能就应批
 
 合规实践的基础是SBOM（Software Bill of Material，软件物料清单），为了便于项目的管理以及基于项目的SBOM树构建SCA（Software Composition Analysis，软件成分分析），应建立项目的SBOM（Software Bill of Material，软件物料清单）树，通过建立SBOM可以建立起项目合规的最低要求以及提供项目的最佳实践。确定自研源代码与项目整体（编译后二进制的）的License，确保项目的License清晰性、规范性。
 
-![sbom树](../img/guideline/sbom-tree.png)
+![sbom树](./img/sbom-tree.png)
 
 分析的核心主要包含三部分：license文本，源代码，依赖项
 
@@ -359,7 +359,7 @@ License的传染，可以由染色这个过程来形象的理解。染色的范�
 
 项目中引入一个开源组件时，涉及多重引入方式，如源码引入、二进制文件引入等。使用开源组件的方式同样涉及多种形式，如设计、编写、测试、调试、链接使用等等，链接使用又包含动态链接、静态链接等，不同的使用方式可能对应不同的License义务。
 
-![sbom树](../img/guideline/introduce-components.png)
+![sbom树](./img/introduce-components.png)
 
 ### 2.3.2 刷新SBOM树
 
