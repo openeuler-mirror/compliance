@@ -6,24 +6,23 @@
 * 源码文件未声明其license & copyright信息
 * Notice声明
 * 代码片段引用
-* 被社区纳入黑名单或不建议引入的许可证
+* 非OSI或FSF认可的license
 * 许可证的条款冲突或者不兼容
 
-**一、仓库本身的开源许可证声明**
+## 一、仓库本身的开源许可证声明
 
-在代码仓的一级目录或者
+在代码仓的一级目录
 
 一级目录声明：
 
 ![](./img/license-statement.png)
 
 
-
-或者在代码仓创建LICNESES文件夹进行声明：
+或者在代码仓创建LICENSES文件夹进行声明：
 
 ![图片](./img/license-statement-in-dri.png)
 
-**二、源文件 license & copyright声明**
+## 二、源文件 license & copyright声明
 
 所有的源码文件都应有license 和 copyright声明
 
@@ -116,7 +115,7 @@ SPDX-License-Identifier: BSD-2-Clause
 
 [https://spdx.org/licenses/](https://spdx.org/licenses/)
 
-**三 Notice申明**
+## 三 Notice申明
 
 项目中引用的所有第三方软件都需履行其许可义务，其中，最为常见的义务是保留第三方软件的许可证和版权信息申明。
 
@@ -139,7 +138,7 @@ SPDX-License-Identifier: BSD-2-Clause
 在项目的根目录下创建Notice文件，将项目涉及到的所有第三方软件许可证原文（含版权）拷贝到该文件中，与方式二形式上相似。
 
 
-**四 代码片段引用**
+## 四 代码片段引用
 
 代码片段引用是指项目复制他人代码或者基于第三方代码进行修改，未获得第三方授权或者基于开源代码而未履行对应义务，如Apache-2.0 许可证有要求修改了他人代码，需在代码修改处添加修改说明
 
@@ -157,7 +156,18 @@ openEuler仓库代码片段引用确认网站：
 
 [https://sca.osinfra.cn/](https://sca.osinfra.cn/)
 
-**五 被社区纳入黑名单或不建议引入的许可证**
+确认步骤：
+1 登录授权sca平台：
+选择openEuler社区对应的仓库，会显示有风险的文件和已确认的文件数
+![repo](./img/report.png)
+
+2 点击左侧文件名进行查看比较，会显示疑似开源代码片段来源，相识代码行数等
+![analysis](./img/code-anaylsis.png)
+
+3 从未确认的文件列表中进行确认
+![identify result](./img/identify.png)
+
+## 五 非OSI或FSF认可的license
 
 通常，对于非自由开源软件许可证是不建议引入的，自由开源软件许可证是经过FSF或OSI认证的许可证。
 
@@ -169,11 +179,13 @@ openEuler仓库代码片段引用确认网站：
 
 
 
-**六 许可证兼容性**
+## 六 许可证兼容性
 
 **许可证兼容性**是指许可证条件之间存在冲突、无法同时满足，因此无法将多个许可证对应的软件打包到同一个项目之中。
 
-常见的开源许可证兼容性可参考：
+常见的开源许可证兼容性可通过貂蝉网站兼容性分析表在线查询。
 
-[https://gitee.com/trustworthy-open-source-community/License-Compatibility/blob/master/%E5%BC%80%E6%BA%90%E8%AE%B8%E5%8F%AF%E8%AF%81%E5%85%BC%E5%AE%B9%E6%80%A7%E6%8C%87%E5%8D%97.md](https://gitee.com/trustworthy-open-source-community/License-Compatibility/blob/master/%E5%BC%80%E6%BA%90%E8%AE%B8%E5%8F%AF%E8%AF%81%E5%85%BC%E5%AE%B9%E6%80%A7%E6%8C%87%E5%8D%97.md)
+兼容性查询表： https://compliance.openeuler.org/compatiableTable
 
+例如： 查询使用GPL-2.0-only许可证的项目是否可以引入以MIT许可的组件
+![兼容性表格](./img/compatiable-table.png)
