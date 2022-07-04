@@ -2180,8 +2180,8 @@ Software Licenses:
     fsfApproved: 'N'
     osiApproved: 'N'
     oeApproved: 'N'
-    lowRisk: 'N'
-    black: 'Y'
+    lowRisk: 'Y'
+    black: 'N'
     blackReason: ''
   - alias:
     - FSF Unlimited License (with License Retention)
@@ -2190,8 +2190,8 @@ Software Licenses:
     fsfApproved: 'N'
     osiApproved: 'N'
     oeApproved: 'N'
-    lowRisk: 'N'
-    black: 'Y'
+    lowRisk: 'Y'
+    black: 'N'
     blackReason: ''
   - alias:
     - Freetype Project License
