@@ -46,16 +46,6 @@ Software Licenses:
     black: 'N'
     blackReason: ''
   - alias:
-    - Artistic
-    - Artistic license
-    identifier: Artistic
-    fsfApproved: 'N'
-    osiApproved: 'N'
-    oeApproved: 'N'
-    lowRisk: 'N'
-    black: 'N'
-    blackReason: ''
-  - alias:
     - CC-BY
     identifier: CC-BY
     fsfApproved: 'N'
@@ -540,7 +530,7 @@ Software Licenses:
     identifier: Apache-1.0
     fsfApproved: 'Y'
     osiApproved: 'N'
-    oeApproved: 'N'
+    oeApproved: 'Y'
     lowRisk: 'N'
     black: 'N'
     blackReason: ''
@@ -597,7 +587,7 @@ Software Licenses:
     identifier: APL-1.0
     fsfApproved: 'N'
     osiApproved: 'Y'
-    oeApproved: 'N'
+    oeApproved: 'Y'
     lowRisk: 'N'
     black: 'N'
     blackReason: ''
@@ -616,7 +606,7 @@ Software Licenses:
     identifier: APSL-1.0
     fsfApproved: 'N'
     osiApproved: 'Y'
-    oeApproved: 'N'
+    oeApproved: 'Y'
     lowRisk: 'N'
     black: 'N'
     blackReason: ''
@@ -626,7 +616,7 @@ Software Licenses:
     identifier: APSL-1.1
     fsfApproved: 'N'
     osiApproved: 'Y'
-    oeApproved: 'N'
+    oeApproved: 'Y'
     lowRisk: 'N'
     black: 'N'
     blackReason: ''
@@ -636,7 +626,7 @@ Software Licenses:
     identifier: APSL-1.2
     fsfApproved: 'N'
     osiApproved: 'Y'
-    oeApproved: 'N'
+    oeApproved: 'Y'
     lowRisk: 'N'
     black: 'N'
     blackReason: ''
@@ -664,19 +654,21 @@ Software Licenses:
   - alias:
     - Artistic License 1.0
     - Artistic 1.0
+    - Artistic
+    - Artistic license
     identifier: Artistic-1.0
     fsfApproved: 'N'
     osiApproved: 'Y'
     oeApproved: 'N'
-    lowRisk: 'N'
-    black: 'Y'
-    blackReason: 'Artistic-1.0 不被GNU认可为免费软件许可证，GUN建议不要使用它，Fedora也将其列入Bad license'
+    lowRisk: 'Y'
+    black: 'N'
+    blackReason: ''
   - alias:
     - Artistic License 1.0 w/clause 8
     identifier: Artistic-1.0-cl8
     fsfApproved: 'N'
     osiApproved: 'Y'
-    oeApproved: 'N'
+    oeApproved: 'Y'
     lowRisk: 'N'
     black: 'N'
     blackReason: ''
@@ -686,7 +678,7 @@ Software Licenses:
     identifier: Artistic-1.0-Perl
     fsfApproved: 'N'
     osiApproved: 'Y'
-    oeApproved: 'N'
+    oeApproved: 'Y'
     lowRisk: 'N'
     black: 'N'
     blackReason: ''
@@ -697,7 +689,7 @@ Software Licenses:
     identifier: Artistic-2.0
     fsfApproved: 'Y'
     osiApproved: 'Y'
-    oeApproved: 'N'
+    oeApproved: 'Y'
     lowRisk: 'N'
     black: 'N'
     blackReason: ''
@@ -765,7 +757,7 @@ Software Licenses:
     identifier: BitTorrent-1.1
     fsfApproved: 'Y'
     osiApproved: 'N'
-    oeApproved: 'N'
+    oeApproved: 'Y'
     lowRisk: 'N'
     black: 'N'
     blackReason: ''
@@ -866,7 +858,7 @@ Software Licenses:
     identifier: BSD-3-Clause-Clear
     fsfApproved: 'Y'
     osiApproved: 'N'
-    oeApproved: 'N'
+    oeApproved: 'Y'
     lowRisk: 'N'
     black: 'N'
     blackReason: ''
@@ -875,7 +867,7 @@ Software Licenses:
     identifier: BSD-3-Clause-LBNL
     fsfApproved: 'N'
     osiApproved: 'Y'
-    oeApproved: 'N'
+    oeApproved: 'Y'
     lowRisk: 'N'
     black: 'N'
     blackReason: ''
@@ -1036,7 +1028,7 @@ Software Licenses:
     identifier: CAL-1.0
     fsfApproved: 'N'
     osiApproved: 'Y'
-    oeApproved: 'N'
+    oeApproved: 'Y'
     lowRisk: 'N'
     black: 'N'
     blackReason: ''
@@ -1045,7 +1037,7 @@ Software Licenses:
     identifier: CAL-1.0-Combined-Work-Exception
     fsfApproved: 'N'
     osiApproved: 'Y'
-    oeApproved: 'N'
+    oeApproved: 'Y'
     lowRisk: 'N'
     black: 'N'
     blackReason: ''
@@ -1626,7 +1618,7 @@ Software Licenses:
     identifier: CECILL-2.0
     fsfApproved: 'Y'
     osiApproved: 'N'
-    oeApproved: 'N'
+    oeApproved: 'Y'
     lowRisk: 'N'
     black: 'N'
     blackReason: ''
@@ -1635,7 +1627,7 @@ Software Licenses:
     identifier: CECILL-2.1
     fsfApproved: 'N'
     osiApproved: 'Y'
-    oeApproved: 'N'
+    oeApproved: 'Y'
     lowRisk: 'N'
     black: 'N'
     blackReason: ''
@@ -1644,7 +1636,7 @@ Software Licenses:
     identifier: CECILL-B
     fsfApproved: 'Y'
     osiApproved: 'N'
-    oeApproved: 'N'
+    oeApproved: 'Y'
     lowRisk: 'N'
     black: 'N'
     blackReason: ''
@@ -1653,7 +1645,7 @@ Software Licenses:
     identifier: CECILL-C
     fsfApproved: 'Y'
     osiApproved: 'N'
-    oeApproved: 'N'
+    oeApproved: 'Y'
     lowRisk: 'N'
     black: 'N'
     blackReason: ''
@@ -1682,7 +1674,7 @@ Software Licenses:
     identifier: CERN-OHL-P-2.0
     fsfApproved: 'N'
     osiApproved: 'Y'
-    oeApproved: 'N'
+    oeApproved: 'Y'
     lowRisk: 'N'
     black: 'N'
     blackReason: ''
@@ -1691,7 +1683,7 @@ Software Licenses:
     identifier: CERN-OHL-S-2.0
     fsfApproved: 'N'
     osiApproved: 'Y'
-    oeApproved: 'N'
+    oeApproved: 'Y'
     lowRisk: 'N'
     black: 'N'
     blackReason: ''
@@ -1700,16 +1692,17 @@ Software Licenses:
     identifier: CERN-OHL-W-2.0
     fsfApproved: 'N'
     osiApproved: 'Y'
-    oeApproved: 'N'
+    oeApproved: 'Y'
     lowRisk: 'N'
     black: 'N'
     blackReason: ''
   - alias:
     - Clarified Artistic License
+    - Artistic clarified
     identifier: ClArtistic
     fsfApproved: 'Y'
     osiApproved: 'N'
-    oeApproved: 'N'
+    oeApproved: 'Y'
     lowRisk: 'N'
     black: 'N'
     blackReason: ''
@@ -1767,7 +1760,7 @@ Software Licenses:
     identifier: Condor-1.1
     fsfApproved: 'Y'
     osiApproved: 'N'
-    oeApproved: 'N'
+    oeApproved: 'Y'
     lowRisk: 'N'
     black: 'N'
     blackReason: ''
@@ -1846,7 +1839,7 @@ Software Licenses:
     identifier: CUA-OPL-1.0
     fsfApproved: 'N'
     osiApproved: 'Y'
-    oeApproved: 'N'
+    oeApproved: 'Y'
     lowRisk: 'N'
     black: 'N'
     blackReason: ''
@@ -1952,7 +1945,7 @@ Software Licenses:
     identifier: ECL-1.0
     fsfApproved: 'N'
     osiApproved: 'Y'
-    oeApproved: 'N'
+    oeApproved: 'Y'
     lowRisk: 'N'
     black: 'N'
     blackReason: ''
@@ -1972,7 +1965,7 @@ Software Licenses:
     identifier: EFL-1.0
     fsfApproved: 'N'
     osiApproved: 'Y'
-    oeApproved: 'N'
+    oeApproved: 'Y'
     lowRisk: 'N'
     black: 'N'
     blackReason: ''
@@ -2011,7 +2004,7 @@ Software Licenses:
     identifier: Entessa
     fsfApproved: 'N'
     osiApproved: 'Y'
-    oeApproved: 'N'
+    oeApproved: 'Y'
     lowRisk: 'N'
     black: 'N'
     blackReason: ''
@@ -2141,7 +2134,7 @@ Software Licenses:
     identifier: Frameworx-1.0
     fsfApproved: 'N'
     osiApproved: 'Y'
-    oeApproved: 'N'
+    oeApproved: 'Y'
     lowRisk: 'N'
     black: 'N'
     blackReason: ''
@@ -2180,8 +2173,8 @@ Software Licenses:
     fsfApproved: 'N'
     osiApproved: 'N'
     oeApproved: 'N'
-    lowRisk: 'N'
-    black: 'Y'
+    lowRisk: 'Y'
+    black: 'N'
     blackReason: ''
   - alias:
     - FSF Unlimited License (with License Retention)
@@ -2190,8 +2183,8 @@ Software Licenses:
     fsfApproved: 'N'
     osiApproved: 'N'
     oeApproved: 'N'
-    lowRisk: 'N'
-    black: 'Y'
+    lowRisk: 'Y'
+    black: 'N'
     blackReason: ''
   - alias:
     - Freetype Project License
@@ -2252,7 +2245,7 @@ Software Licenses:
     identifier: GFDL-1.1-only
     fsfApproved: 'Y'
     osiApproved: 'N'
-    oeApproved: 'N'
+    oeApproved: 'Y'
     lowRisk: 'N'
     black: 'N'
     blackReason: ''
@@ -2261,7 +2254,7 @@ Software Licenses:
     identifier: GFDL-1.1-or-later
     fsfApproved: 'Y'
     osiApproved: 'N'
-    oeApproved: 'N'
+    oeApproved: 'Y'
     lowRisk: 'N'
     black: 'N'
     blackReason: ''
@@ -2306,7 +2299,7 @@ Software Licenses:
     identifier: GFDL-1.2-only
     fsfApproved: 'Y'
     osiApproved: 'N'
-    oeApproved: 'N'
+    oeApproved: 'Y'
     lowRisk: 'N'
     black: 'N'
     blackReason: ''
@@ -2315,7 +2308,7 @@ Software Licenses:
     identifier: GFDL-1.2-or-later
     fsfApproved: 'Y'
     osiApproved: 'N'
-    oeApproved: 'N'
+    oeApproved: 'Y'
     lowRisk: 'N'
     black: 'N'
     blackReason: ''
@@ -2373,7 +2366,7 @@ Software Licenses:
     identifier: GFDL-1.3-or-later
     fsfApproved: 'Y'
     osiApproved: 'N'
-    oeApproved: 'N'
+    oeApproved: 'Y'
     lowRisk: 'N'
     black: 'N'
     blackReason: ''
@@ -2628,7 +2621,7 @@ Software Licenses:
     identifier: iMatix
     fsfApproved: 'Y'
     osiApproved: 'N'
-    oeApproved: 'N'
+    oeApproved: 'Y'
     lowRisk: 'N'
     black: 'N'
     blackReason: ''
@@ -2637,7 +2630,7 @@ Software Licenses:
     identifier: Imlib2
     fsfApproved: 'Y'
     osiApproved: 'N'
-    oeApproved: 'N'
+    oeApproved: 'Y'
     lowRisk: 'N' 
     black: 'N'
     blackReason: ''
@@ -2713,7 +2706,7 @@ Software Licenses:
     identifier: Jam
     fsfApproved: 'N'
     osiApproved: 'Y'
-    oeApproved: 'N'
+    oeApproved: 'Y'
     lowRisk: 'N'
     black: 'N'
     blackReason: ''
@@ -2926,7 +2919,7 @@ Software Licenses:
     identifier: LiLiQ-P-1.1
     fsfApproved: 'N'
     osiApproved: 'Y'
-    oeApproved: 'N'
+    oeApproved: 'Y'
     lowRisk: 'N'
     black: 'N'
     blackReason: ''
@@ -2935,7 +2928,7 @@ Software Licenses:
     identifier: LiLiQ-R-1.1
     fsfApproved: 'N'
     osiApproved: 'Y'
-    oeApproved: 'N'
+    oeApproved: 'Y'
     lowRisk: 'N'
     black: 'N'
     blackReason: ''
@@ -2944,7 +2937,7 @@ Software Licenses:
     identifier: LiLiQ-Rplus-1.1
     fsfApproved: 'N'
     osiApproved: 'Y'
-    oeApproved: 'N'
+    oeApproved: 'Y'
     lowRisk: 'N'
     black: 'N'
     blackReason: ''
@@ -2971,7 +2964,7 @@ Software Licenses:
     identifier: LPL-1.0
     fsfApproved: 'N'
     osiApproved: 'Y'
-    oeApproved: 'N'
+    oeApproved: 'Y'
     lowRisk: 'N'
     black: 'N'
     blackReason: ''
@@ -3009,7 +3002,7 @@ Software Licenses:
     identifier: LPPL-1.2
     fsfApproved: 'Y'
     osiApproved: 'N'
-    oeApproved: 'N'
+    oeApproved: 'Y'
     lowRisk: 'N'
     black: 'N'
     blackReason: ''
@@ -3018,7 +3011,7 @@ Software Licenses:
     identifier: LPPL-1.3a
     fsfApproved: 'Y'
     osiApproved: 'N'
-    oeApproved: 'N'
+    oeApproved: 'Y'
     lowRisk: 'N'
     black: 'N'
     blackReason: ''
@@ -3073,7 +3066,7 @@ Software Licenses:
     identifier: MIT-0
     fsfApproved: 'N'
     osiApproved: 'Y'
-    oeApproved: 'N'
+    oeApproved: 'Y'
     lowRisk: 'N'
     black: 'N'
     blackReason: ''
@@ -3118,7 +3111,7 @@ Software Licenses:
     identifier: MIT-Modern-Variant
     fsfApproved: 'N'
     osiApproved: 'Y'
-    oeApproved: 'N'
+    oeApproved: 'Y'
     lowRisk: 'N'
     black: 'N'
     blackReason: ''
@@ -3204,7 +3197,7 @@ Software Licenses:
     identifier: MPL-2.0-no-copyleft-exception
     fsfApproved: 'N'
     osiApproved: 'Y'
-    oeApproved: 'N'
+    oeApproved: 'Y'
     lowRisk: 'N'
     black: 'N'
     blackReason: ''
@@ -3276,7 +3269,7 @@ Software Licenses:
     identifier: Multics
     fsfApproved: 'N'
     osiApproved: 'Y'
-    oeApproved: 'N'
+    oeApproved: 'Y'
     lowRisk: 'N'
     black: 'N'
     blackReason: ''
@@ -3303,7 +3296,7 @@ Software Licenses:
     identifier: NASA-1.3
     fsfApproved: 'N'
     osiApproved: 'Y'
-    oeApproved: 'N'
+    oeApproved: 'Y'
     lowRisk: 'N'
     black: 'N'
     blackReason: ''
@@ -3439,7 +3432,7 @@ Software Licenses:
     identifier: NOSL
     fsfApproved: 'Y'
     osiApproved: 'N'
-    oeApproved: 'N'
+    oeApproved: 'Y'
     lowRisk: 'N'
     black: 'N'
     blackReason: ''
@@ -3457,7 +3450,7 @@ Software Licenses:
     identifier: NPL-1.0
     fsfApproved: 'Y'
     osiApproved: 'N'
-    oeApproved: 'N'
+    oeApproved: 'Y'
     lowRisk: 'N'
     black: 'N'
     blackReason: ''
@@ -3466,7 +3459,7 @@ Software Licenses:
     identifier: NPL-1.1
     fsfApproved: 'Y'
     osiApproved: 'N'
-    oeApproved: 'N'
+    oeApproved: 'Y'
     lowRisk: 'N'
     black: 'N'
     blackReason: ''
@@ -3475,7 +3468,7 @@ Software Licenses:
     identifier: NPOSL-3.0
     fsfApproved: 'N'
     osiApproved: 'Y'
-    oeApproved: 'N'
+    oeApproved: 'Y'
     lowRisk: 'N'
     black: 'N'
     blackReason: ''
@@ -3529,7 +3522,7 @@ Software Licenses:
     identifier: OCLC-2.0
     fsfApproved: 'N'
     osiApproved: 'Y'
-    oeApproved: 'N'
+    oeApproved: 'Y'
     lowRisk: 'N'
     black: 'N'
     blackReason: ''
@@ -3539,7 +3532,7 @@ Software Licenses:
     identifier: ODbL-1.0
     fsfApproved: 'Y'
     osiApproved: 'N'
-    oeApproved: 'N'
+    oeApproved: 'Y'
     lowRisk: 'N'
     black: 'N'
     blackReason: ''
@@ -3559,27 +3552,27 @@ Software Licenses:
     fsfApproved: 'Y'
     osiApproved: 'N'
     oeApproved: 'N'
-    lowRisk: 'N'
-    black: 'Y'
-    blackReason: '不建议引入，该协议适用于字体，在GPLv2的基础上增加了例外条款，如果使用此字体创建文档，并且将此字体嵌入到文档中，并不会导致生成的文件被GPL协议覆盖，另外在分发的时候也要确保支持修改和安装。该协议也明确规定受美国法律管辖'
+    lowRisk: 'Y'
+    black: 'N'
+    blackReason: ''
   - alias:
     - SIL Open Font License 1.0 with no Reserved Font Name
     identifier: OFL-1.0-no-RFN
     fsfApproved: 'N'
     osiApproved: 'N'
     oeApproved: 'N'
-    lowRisk: 'N'
-    black: 'Y'
-    blackReason: '不建议引入，该协议适用于字体，在GPLv2的基础上增加了例外条款，如果使用此字体创建文档，并且将此字体嵌入到文档中，并不会导致生成的文件被GPL协议覆盖，另外在分发的时候也要确保支持修改和安装。该协议也明确规定受美国法律管辖'
+    lowRisk: 'Y'
+    black: 'N'
+    blackReason: ''
   - alias:
     - SIL Open Font License 1.0 with Reserved Font Name
     identifier: OFL-1.0-RFN
     fsfApproved: 'N'
     osiApproved: 'N'
     oeApproved: 'N'
-    lowRisk: 'N'
-    black: 'Y'
-    blackReason: '不建议引入，该协议适用于字体，在GPLv2的基础上增加了例外条款，如果使用此字体创建文档，并且将此字体嵌入到文档中，并不会导致生成的文件被GPL协议覆盖，另外在分发的时候也要确保支持修改和安装。该协议也明确规定受美国法律管辖'
+    lowRisk: 'Y'
+    black: 'N'
+    blackReason: ''
   - alias:
     - SIL Open Font License 1.1
     - SIL Open Font License, Version 1.1
@@ -3587,28 +3580,28 @@ Software Licenses:
     identifier: OFL-1.1
     fsfApproved: 'Y'
     osiApproved: 'Y'
-    oeApproved: 'N'
+    oeApproved: 'Y'
     lowRisk: 'N'
-    black: 'Y'
-    blackReason: '不建议引入，该协议适用于字体，在GPLv2的基础上增加了例外条款，如果使用此字体创建文档，并且将此字体嵌入到文档中，并不会导致生成的文件被GPL协议覆盖，另外在分发的时候也要确保支持修改和安装。该协议也明确规定受美国法律管辖'
+    black: 'N'
+    blackReason: ''
   - alias:
     - SIL Open Font License 1.1 with no Reserved Font Name
     identifier: OFL-1.1-no-RFN
     fsfApproved: 'N'
     osiApproved: 'Y'
-    oeApproved: 'N'
+    oeApproved: 'Y'
     lowRisk: 'N'
-    black: 'Y'
-    blackReason: '不建议引入，该协议适用于字体，在GPLv2的基础上增加了例外条款，如果使用此字体创建文档，并且将此字体嵌入到文档中，并不会导致生成的文件被GPL协议覆盖，另外在分发的时候也要确保支持修改和安装。该协议也明确规定受美国法律管辖'
+    black: 'N'
+    blackReason: ''
   - alias:
     - SIL Open Font License 1.1 with Reserved Font Name
     identifier: OFL-1.1-RFN
     fsfApproved: 'N'
     osiApproved: 'Y'
-    oeApproved: 'N'
+    oeApproved: 'Y'
     lowRisk: 'N'
-    black: 'Y'
-    blackReason: '不建议引入，该协议适用于字体，在GPLv2的基础上增加了例外条款，如果使用此字体创建文档，并且将此字体嵌入到文档中，并不会导致生成的文件被GPL协议覆盖，另外在分发的时候也要确保支持修改和安装。该协议也明确规定受美国法律管辖'
+    black: 'N'
+    blackReason: ''
   - alias:
     - OGC Software License, Version 1.0
     identifier: OGC-1.0
@@ -3668,7 +3661,7 @@ Software Licenses:
     identifier: OGTSL
     fsfApproved: 'N'
     osiApproved: 'Y'
-    oeApproved: 'N'
+    oeApproved: 'Y'
     lowRisk: 'N'
     black: 'N'
     blackReason: ''
@@ -3767,7 +3760,7 @@ Software Licenses:
     identifier: OLDAP-2.3
     fsfApproved: 'Y'
     osiApproved: 'N'
-    oeApproved: 'N'
+    oeApproved: 'Y'
     lowRisk: 'N'
     black: 'N'
     blackReason: ''
@@ -3803,7 +3796,7 @@ Software Licenses:
     identifier: OLDAP-2.7
     fsfApproved: 'Y'
     osiApproved: 'N'
-    oeApproved: 'N'
+    oeApproved: 'Y'
     lowRisk: 'N'
     black: 'N'
     blackReason: ''
@@ -3859,7 +3852,7 @@ Software Licenses:
     identifier: OSET-PL-2.1
     fsfApproved: 'N'
     osiApproved: 'Y'
-    oeApproved: 'N'
+    oeApproved: 'Y'
     lowRisk: 'N'
     black: 'N'
     blackReason: ''
@@ -3882,7 +3875,7 @@ Software Licenses:
     identifier: OSL-1.1
     fsfApproved: 'Y'
     osiApproved: 'N'
-    oeApproved: 'N'
+    oeApproved: 'Y'
     lowRisk: 'N'
     black: 'N'
     blackReason: ''
@@ -3961,7 +3954,7 @@ Software Licenses:
     identifier: PHP-3.01
     fsfApproved: 'Y'
     osiApproved: 'Y'
-    oeApproved: 'N'
+    oeApproved: 'Y'
     lowRisk: 'N'
     black: 'N'
     blackReason: ''
@@ -4035,6 +4028,7 @@ Software Licenses:
     - Python License 2.0
     - Python License, Version 2
     - PYTHON SOFTWARE FOUNDATION LICENSE VERSION 2
+    - Python
     identifier: Python-2.0
     fsfApproved: 'Y'
     osiApproved: 'Y'
@@ -4085,7 +4079,7 @@ Software Licenses:
     identifier: RPL-1.1
     fsfApproved: 'N'
     osiApproved: 'Y'
-    oeApproved: 'N'
+    oeApproved: 'Y'
     lowRisk: 'N'
     black: 'N'
     blackReason: ''
@@ -4094,7 +4088,7 @@ Software Licenses:
     identifier: RPL-1.5
     fsfApproved: 'N'
     osiApproved: 'Y'
-    oeApproved: 'N'
+    oeApproved: 'Y'
     lowRisk: 'N'
     black: 'N'
     blackReason: ''
@@ -4122,7 +4116,7 @@ Software Licenses:
     identifier: RSCPL
     fsfApproved: 'N'
     osiApproved: 'Y'
-    oeApproved: 'N'
+    oeApproved: 'Y'
     lowRisk: 'N'
     black: 'N'
     blackReason: ''
@@ -4212,7 +4206,7 @@ Software Licenses:
     identifier: SGI-B-2.0
     fsfApproved: 'Y'
     osiApproved: 'N'
-    oeApproved: 'N'
+    oeApproved: 'Y'
     lowRisk: 'N'
     black: 'N'
     blackReason: ''
@@ -4239,7 +4233,7 @@ Software Licenses:
     identifier: SimPL-2.0
     fsfApproved: 'N'
     osiApproved: 'Y'
-    oeApproved: 'N'
+    oeApproved: 'Y'
     lowRisk: 'N'
     black: 'N'
     blackReason: ''
@@ -4277,7 +4271,7 @@ Software Licenses:
     identifier: SMLNJ
     fsfApproved: 'Y'
     osiApproved: 'N'
-    oeApproved: 'N'
+    oeApproved: 'Y'
     lowRisk: 'N'
     black: 'N'
     blackReason: ''
@@ -4461,7 +4455,7 @@ Software Licenses:
     identifier: UCL-1.0
     fsfApproved: 'N'
     osiApproved: 'Y'
-    oeApproved: 'N'
+    oeApproved: 'Y'
     lowRisk: 'N'
     black: 'N'
     blackReason: ''
@@ -4497,7 +4491,7 @@ Software Licenses:
     identifier: Unlicense
     fsfApproved: 'Y'
     osiApproved: 'Y'
-    oeApproved: 'N'
+    oeApproved: 'Y'
     lowRisk: 'N'
     black: 'N'
     blackReason: ''
@@ -4572,7 +4566,7 @@ Software Licenses:
     identifier: Watcom-1.0
     fsfApproved: 'N'
     osiApproved: 'Y'
-    oeApproved: 'N'
+    oeApproved: 'Y'
     lowRisk: 'N'
     black: 'N'
     blackReason: ''
@@ -4599,7 +4593,7 @@ Software Licenses:
     identifier: X11
     fsfApproved: 'Y'
     osiApproved: 'N'
-    oeApproved: 'N'
+    oeApproved: 'Y'
     lowRisk: 'N'
     black: 'N'
     blackReason: ''
@@ -4626,7 +4620,7 @@ Software Licenses:
     identifier: XFree86-1.1
     fsfApproved: 'Y'
     osiApproved: 'N'
-    oeApproved: 'N'
+    oeApproved: 'Y'
     lowRisk: 'N'
     black: 'N'
     blackReason: ''
@@ -4645,7 +4639,7 @@ Software Licenses:
     identifier: Xnet
     fsfApproved: 'N'
     osiApproved: 'Y'
-    oeApproved: 'N'
+    oeApproved: 'Y'
     lowRisk: 'N'
     black: 'N'
     blackReason: ''
@@ -4681,7 +4675,7 @@ Software Licenses:
     identifier: YPL-1.1
     fsfApproved: 'Y'
     osiApproved: 'N'
-    oeApproved: 'N'
+    oeApproved: 'Y'
     lowRisk: 'N'
     black: 'N'
     blackReason: ''
@@ -4708,7 +4702,7 @@ Software Licenses:
     identifier: Zimbra-1.3
     fsfApproved: 'Y'
     osiApproved: 'N'
-    oeApproved: 'N'
+    oeApproved: 'Y'
     lowRisk: 'N'
     black: 'N'
     blackReason: ''
@@ -5259,6 +5253,16 @@ Software Licenses:
     fsfApproved: 'N'
     osiApproved: 'N'
     oeApproved: 'N'
+    lowRisk: 'N'
+    black: 'N'
+    blackReason: ''
+  - alias:
+    - exceptions
+    - exception
+    identifier: exceptions
+    fsfApproved: 'N'
+    osiApproved: 'N'
+    oeApproved: 'Y'
     lowRisk: 'N'
     black: 'N'
     blackReason: ''
