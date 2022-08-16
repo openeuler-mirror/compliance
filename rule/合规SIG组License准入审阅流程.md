@@ -12,18 +12,18 @@
     4. License 的原文
     5. License 的原始出处: 该License原始出处的项目的网站（如有）和该License出处的描述 
     6. 该License的相近版本：请给出该License FSF or OSI认证的相近的版本，并给出Diff.
-    7.  License的使用的情况：一段表述该License流行度的文字。 
+    7. License的使用的情况：一段表述该License流行度的文字。 
     8. License的涉及的负面的诉讼和争议情况：描述该类情况的文字。
 3. **输出件**：
     1. 该License是否为openEuler approved的 “开源的” License.
-    2. 该License 是否为openEuler 标记的”非开源需限制使用的“ 的License
+    2. 该License 是否为openEuler 标记的”非开源需限制使用的“(简称：受限使用) 的License
     3. 如果以上都不是，则该License为“禁止”引入License.
 4. **审阅原则**:
     1. 是否为openEuler approved 的“开源的”License: 
-        1. FSF or OSI approved 的减去 oE黑名单（很少）
+        1. FSF or OSI approved 的减去 是否为openEuler黑名单（很少）
         2. 如果该License有与其相近的License的是FSF 或OSI approved的，则可以对比两个License的差异部分，按照OSD的10条开源定义进行对比
-    2. 是否为oE标记的“非开源需限制使用的”License
-        1. 不属于oE approved 的“开源的”
+    2. 是否为openEuler标记的“受限使用”License
+        1. 不属于openEuler approved 的“开源的”
         2. 语言表述对分发、修改、使用等开源场景较为宽松
         3. 在开源领域被广泛使用
         4. 没有负面的诉讼和争议事件。
