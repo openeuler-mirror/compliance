@@ -102,3 +102,78 @@ Copyright (c) XXXX（Copyright owner） Co., Ltd. YYYY. All rights reserved.
 ## 5 License兼容性
 
 ## 6 spec文件License字段书写参考
+spec文件中的License字段代表软件整体应遵守的开源许可证情况，为解决因许可证格式不统一引起的歧义(例如Apache-2.0，被简写为ASL-2.0、Apache-2、Apache License v2.0等)，应按照SPDX格式要求统一License字段书写格式。spec文件中License字段书写规范如下：
+###  6.1、针对单一许可证
+
+在确定好开源许可证的前提下，以SPDX的格式书写spec文件中的License字段，可通过[https://spdx.org/licenses/](https://spdx.org/licenses/。) 查找开源许可证的书写格式，现给出常见开源许可证的书写格式如下表所示：
+
+| ***\*开源许可证完整名称\****                                          | ***\*SPDX格式标识符\**** |
+| ------------------------------------------------------------ | -------------------- |
+| BSD Zero Clause License                                      | 0BSD                 |
+| GNU Affero General Public License v3.0 only                  | AGPL-3.0-only        |
+| GNU Affero General Public License v3.0 or later              | AGPL-3.0-or-later    |
+| Apache License 2.0                                           | Apache-2.0           |
+| Artistic License 2.0                                         | Artistic-2.0         |
+| BSD 1-Clause License                                         | BSD-1-Clause         |
+| BSD 2-Clause "Simplified" License                            | BSD-2-Clause         |
+| BSD 3-Clause "New" or "Revised" License                      | BSD-3-Clause         |
+| BSD 4-Clause "Original" or "Old" License                     | BSD-4-Clause         |
+| Creative Commons Attribution 4.0 International               | CC-BY-4.0            |
+| Creative Commons Attribution Non Commercial 4.0 International | CC-BY-NC-4.0         |
+| Creative Commons Attribution Non Commercial No Derivatives 4.0 International | CC-BY-NC-ND-4.0      |
+| Creative Commons Attribution Non Commercial Share Alike 4.0 International | CC-BY-NC-SA-4.0      |
+| Creative Commons Attribution No Derivatives 4.0 International | CC-BY-ND-4.0         |
+| Creative Commons Attribution Share Alike 4.0 International   | CC-BY-SA-4.0         |
+| Creative Commons Zero v1.0 Universal                         | CC0-1.0              |
+| GNU General Public License v1.0 only               | GPL-1.0-only                  |
+| GNU General Public License v1.0 or later           | GPL-1.0-or-later              |
+| GNU General Public License v2.0 only               | GPL-2.0-only                  |
+| GNU General Public License v2.0 or later           | GPL-2.0-or-later              |
+| GNU General Public License v3.0 only               | GPL-3.0-only                  |
+| GNU General Public License v3.0 or later           | GPL-3.0-or-later              |
+| GNU Library General Public License v2 only         | LGPL-2.0-only                 |
+| GNU Library General Public License v2 or later     | LGPL-2.0-or-later             |
+| GNU Lesser General Public License v2.1 only        | LGPL-2.1-only                 |
+| GNU Lesser General Public License v2.1 or later    | LGPL-2.1-or-later             |
+| GNU Lesser General Public License v3.0 only        | LGPL-3.0-only                 |
+| GNU Lesser General Public License v3.0 or later    | LGPL-3.0-or-later             |
+| MIT License                                        | MIT                           |
+| MIT No Attribution                                 | MIT-0                         |
+| Mozilla Public License 2.0                         | MPL-2.0                       |
+| Mozilla Public License 2.0 (no copyleft exception) | MPL-2.0-no-copyleft-exception |
+| Mulan Permissive Software License, Version 1       | MulanPSL-1.0                  |
+| Mulan Permissive Software License, Version 2       | MulanPSL-2.0                  |
+| Do What The F*ck You Want To Public License        | WTFPL                         |
+### 6.2、针对多许可证
+
+spec文件中License字段应包含软件本身及引用的全部第三方开源组件（由依赖软件包或包管理器提供的除外）所涉及到的开源许可证，因此常见需要同时声明多个开源许可证。对于多许可证情况，除每个许可证均需采用SPDX格式相应标识符外，根据上游许可证约束要求，可使用AND、OR、WITH三种连接符进行组合。
+
+(1) 当要求同时受多个开源许可证约束时，需使用AND连接符对许可证进行连接，参考示例如下：
+
+License：Apache-2.0 AND MIT，表明该软件同时受Apache-2.0和MIT许可证约束。
+
+(2) 当存在多个许可证，并且可由被许可人选择接受其中之一许可证进行约束时，需使用OR连接符对许可证进行连接，参考示例如下：
+
+License：Apache-2.0 OR MIT，表明该软件可由被许可人选择受Apache-2.0或MIT其中之一许可证约束。
+
+(3) 在现有许可证约束的条件下，被许可人希望获取额外权限时，需使用WITH连接符进行连接，参考示例如下：
+
+License：GPL-3.0-only WITH Classpath-exception-2.0，表明该软件仅被GPL-3.0约束，被许可人还可选择Classpath-exception-2.0，从而获取额外权限。
+
+### 附A 常见字符简介
+
+spen文件License字段中会有一些字符经常与开源许可证组合使用，现对常见字符进行简介。
+
+(1) 对于GNU许可证需使用only表明仅受GNU中的单一许可证约束。参考示例如下：
+
+License: GPL-2.0-only，表明仅受GPL-2.0许可证约束。
+
+(2) 单一许可证后加“+”字符，表明受单一许可证约束，也可由该单一许可证任何更高版本约束，由被许可方选择，参考示例如下：
+
+License: EPL-1.0+，表明该软件受EPL 1.0或EPL许可证任何更高版本约束。
+
+(3) 对于GNU许可证需使用later字符表示受GNU当前版本或更高版本的GNU许可证约束，由被许可方选择，参考示例如下：
+
+License: GPL-2.0-or-later，表明该软件受GPL 2.0版本或更高版本的GPL许可证约束。
+
+许可证组合及常见字符的详细介绍，可通过 https://spdx.dev/ids/ 进行参考。
