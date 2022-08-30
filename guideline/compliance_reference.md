@@ -10,6 +10,38 @@
 
 ## 1 README文件参考
 
+开源软件通常都会提供Readme文件，用于说明项目基本信息，使用户快速了解上手该项目。绝大多数代码托管平台通常也将Readme文件内容默认展示在项目首页，可以说Readme文件就是开源项目的“脸面”。
+一个优秀的Readme文件，其内容通常包含项目简介、安装构建步骤、帮助反馈等栏目。
+
+- 项目简介一般包括项目背景、主要功能、同类软件对比等，部分优秀的项目也会提供设计架构、开发路线图等内容。
+- 安装构建步骤提供软件包直接安装和源码编译构建安装的详细步骤，列出编译安装环境要求及关键配置等信息。
+- 帮助反馈部分提供项目详细文档链接、常见问题解答及问题反馈方式等。
+
+以上这些栏目内容通常无固定格式，由开发者自行编写。
+除此之外，强烈建议开发者在Readme文件中声明本项目的版权及开源许可证（Copyright&License）信息。
+
+a、 一般开源项目Readme文件声明版权及开源许可证（Copyright&License）参考模板如下：
+
+```
+##Copyright&License
+
+Copyright（c）[time] [ name of copyright holder ]
+[Project Name] is licensed under [LICENSE].Please check the LICENSE file for more information.
+
+```
+
+b、若为从其他开源项目衍生而来的项目，其Readme文件除上述声明内容之外还需声明上游开源项目相关信息，同时说明维护策略（例如独立发展或跟踪上游适配等策略）。示例如下：
+
+```
+[Project Name] is a fork of [Original open source software name]；
+```
+或
+```
+[Project Name] fork from [Original open source software name];
+You can access the source open source software address through this URL：
+                                  XXXX;
+```
+
 ## 2 License声明参考
 
 ## 3 文件头版权信息编写参考
