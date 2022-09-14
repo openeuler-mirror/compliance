@@ -161,6 +161,82 @@ Copyright (c) XXXX（Copyright owner） Co., Ltd. YYYY. All rights reserved.
 ```
 
 ## 4 Notice文件编写参考
+开源软件需提供NOTICE文件，用于显著声明开源软件的版权和许可证声明，一般将NOTICE文件放置于源代码根目录下。NOTICE文件是对开源项目中具体文件的版权与许可证的集合，其中包括：本开源软件以及第三方开源组件的相关信息。
+
+### 4.1、新增NOTICE文件
+
+首先需在NOTICE文件中展示本开源项目的一些信息，建议最少包括：项目名称、版权信息、许可证信息，开发人员也可根据实际情况增加其他信息。编写格式可参考如下示例：
+
+```
+%% 软件名称 NOTICE
+===========================================
+Copyright (c) [Year] [name of copyright holder]    
+（可参考文件头版权信息编写规范）
+The  xxxx   License （xxxx为该开源许可证SPDX格式）
+===========================================
+END OF 软件名称 NOTICE
+```
+
+如果该项目为开源衍生项目，建议给出衍生自开源软件链接。示例如下所示：
+
+```
+Fork from: https://XXXXX     #衍生项目的链接
+```
+
+为保障开发者权益，建议针对当前项目给出免责声明。在此给出参考示例如下所示：
+
+```
+THE OPEN SOURCE SOFTWARE IN THIS SOFTWARE IS DISTRIBUTED IN THE HOPE THAT IT WILL BE USEFUL, BUT WITHOUT ANY WARRANTY, WITHOUT EVEN THE IMPLIED WARRANTY OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. SEE THE APPLICABLE LICENSES FOR MORE DETAILS.
+```
+### 4.2、添加第三方开源组件时修改NOTICE文件
+
+在开源项目中用到新的第三方开源组件时，为保留第三方开源组件的版权和许可证声明需在NOTICE文件中进行体现，以履行通知义务。为在NOTICE文件中显著区分本开源项目和第三方开源组件，可以用THIRD-PARTY SOFTWARE NOTICES字段进行分割。建议第三方开源组件的NOTICE信息至少包括：组件名称、版权信息、许可证信息。书写格式可参考如下示例：
+
+```
+--------THIRD-PARTY SOFTWARE NOTICES---------
+
+%% 软件名称1 NOTICE
+===========================================
+Copyright (c) [Year] [name of copyright holder]    
+The  xxxx   License （xxxx为该开源许可证SPDX格式）
+===========================================
+END OF 软件名称1 NOTICE
+
+%% 软件名称2 NOTICE
+===========================================
+Copyright (c) [Year] [name of copyright holder]    
+The  xxxx   License （xxxx为该开源许可证SPDX格式）
+===========================================
+END OF 软件名称2 NOTICE
+  		  .
+		  .
+		  .
+```
+
+NOTICE中建议说明第三方开源组件License的完整信息。如果该组件的License信息已经在源代码目录中声明，可以将该文件位置声明添加至该NOTICE中。参考格式如下所示，文件位置可根据实际情况进行修改：
+
+```
+%% 软件名称3 NOTICE
+===========================================
+Copyright (c) [Year] [name of copyright holder]    
+The  xxxx   License （xxxx为该开源许可证SPDX格式）
+See：./LICENSE/LICENSE-XXX
+===========================================
+END OF 软件名称3 NOTICE
+```
+
+NOTICE中也可添加第三方开源组件的功能描述，或放置第三方开源组件的官方地址/来源链接。编写格式参考如下：
+
+```
+%% 软件名称4 NOTICE
+===========================================
+Copyright (c) [Year] [name of copyright holder]    
+The  xxxx   License （xxxx为该开源许可证SPDX格式）
+Description：xxxxxxxxx
+URL：xxxxx
+===========================================
+END OF 软件名称4 NOTICE
+```
 
 ## 5 License兼容性
 
