@@ -13,7 +13,17 @@ OpenEuler is an open source OS community and uses the Mulan V2 license. Multiple
 - Resolved the problem that the license of the spec file in the RPM package is inconsistent with that of the native community. Example: greenlet
 
 
-#### copyright Compliance Introduction
+#### License & Copyright Compliance Introduction
+Generally, the public regard the open source code as something "free"(referring to freedom, not price) to use. Here the word "free" does not mean you can use it anyway you want, but under the regulations of its license. Then:
+- What is a license?
+- Why the open source code author has the right to assign a license to regulate its users?
+- What is license & copyright compliance about for open source development?
+
+This chapter will give some explanations:
+1. [understanding copyright and license](https://gitee.com/openeuler/compliance/blob/master/guideline/drafts/concept.md)
+2. [license and copyright compliance](https://gitee.com/openeuler/compliance/blob/master/guideline/drafts/license.md)
+3. [FAQ](https://gitee.com/openeuler/compliance/blob/master/guideline/drafts/faq.md)
+4. [terms and abbreviations](https://gitee.com/openeuler/compliance/blob/master/guideline/drafts/terms.md)
 
 #### Export Control Compliance Introduction
 
