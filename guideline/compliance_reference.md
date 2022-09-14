@@ -97,7 +97,7 @@ See the Mulan PSL v2 for more details.
 
 ```
 Copyright (c) XXXX  Co., Ltd. YYYY . All rights reserved.
-XXX licensed under the Mulan PSL v2.
+XXX is licensed under the Mulan PSL v2.
 You can use this software according to the terms and conditions of the Mulan PSL v2.
 You may obtain a copy of Mulan PSL v2 at:
      http://license.coscl.org.cn/MulanPSL2
@@ -238,7 +238,66 @@ URL：xxxxx
 END OF 软件名称4 NOTICE
 ```
 
-## 5 License兼容性
+## 5 License兼容性问题判断方法
+开源许可证的种类有很多，即使主流经常使用的也有上百种，大型复杂开源项目通常因引用较多第三方开源组件，会携带多种开源许可证，这些开源许可证的限制或条件是否存在冲突，能否共存于同一个项目，即称为开源许可证（License）兼容问题。例如某项目存在Apache-2.0和GPL-2.0-only两种开源许可证，因Apache-2.0中带有的专利条款与GPL-2.0-only中不得附加其他任何限制的条款冲突，整个项目既不能按照Apache-2.0协议来发布，也不能用GPL-2.0-only发布，这种冲突统称为License兼容性问题。
+
+### 5.1 兼容性情况分类
+
+LICENSE之间的兼容性分为三种兼容情况：双向兼容，单向兼容和互不兼容。假设两个开源许可证分别为A和B，以下举例说明三种情况：
+
+双向兼容是指两种许可证可任意组合成其中一种许可证。
+
+$$
+A + B => A  \\  A + B => B
+$$
+单向兼容是指两种许可证组合只可组合成一种许可证。
+
+$$
+A + B => A  \\
+A + B \neq> B
+$$
+互不兼容是指两种许可证互相都不能组合。
+$$
+A + B \neq> A  \\  A + B \neq> B
+$$
+
+
+
+### 5.2 兼容性问题的情境概述
+
+通常在以下两种情境需要考虑LICENSE兼容性问题：
+
+- 新项目立项时，确定项目自身开源许可证
+
+  新项目需确定是否引用第三方开源组件作为核心组件，如不存在此类引用，可根据个人喜好或商业策略等因素自行确定项目开源许可证；
+  如存在此类引用，则需梳理全部第三方开源组件采用的开源许可证列表，采用与该列表兼容（双向或单向兼容均可）的开源许可证作为新项目开源许可证。
+
+- 项目本身开源许可证已确定，引入第三方开源组件或代码
+
+  引入第三方开源组件或代码时，需确保其开源许可证与项目开源许可证双向兼容或单向兼容的结果为项目开源许可证。
+
+  为什么不能单向兼容引入组件的开源许可证呢？如单向兼容的结果为引入组件开源许可证，则项目开源许可证需要变更至引入组件开源许可证，此情况下项目开源许可证变更可能导致与已引入的其他第三方开源组件或代码开源许可证冲突，因此不建议采用此种方案。
+
+### 5.3 LICENSE兼容性判断
+
+a、首先根据上述情境确定项目基本情况，即哪些开源许可证是我们的判断内容，其对应开源组件以何种方式引入本项目（一般只需判断是否为动态库原样引用）。
+
+b、寻找合适的工具或文档判别上述开源许可证之间是否存在冲突，推荐工具或文档如下：
+
+- [openeuler社区貂蝉平台兼容性查询工具](https://gitee.com/link?target=https%3A%2F%2Fcompliance.openeuler.org%2FcompatiableTable)
+- [可信开源/开源许可证兼容性指南](https://gitee.com/trustworthy-open-source-community/License-Compatibility/blob/master/开源许可证兼容性指南.md/)
+- [GPL系列开源许可证与其他开源许可证兼容性](https://gitee.com/link?target=https%3A%2F%2Fwww.gnu.org%2Flicenses%2Flicense-list.html%23GPLCompatibleLicenses)
+
+c、若查询结束仍存在不理解或未查询到想要的结果，可以选择：
+
+- 咨询公司法务，协助阅读相应开源许可协议，判断是否兼容
+- 与openeuler社区Compliance SIG交流。提交两种许可证辨别是否冲突的issue，在开源社区寻求答案。
+
+d、如最终结论为两种开源许可证之间存在冲突，则可以采取以下措施解决兼容冲突问题：
+
+- 放弃引入带有冲突开源许可证的三方开源组件或代码，转而寻找替代品或自研实现
+- 如可满足软件功能需求，在符合开源许可证限制的前提下，可考虑进程隔离，分别分发
+- 小型简单项目可以考虑更换项目本身开源许可证（建议以大版本号更新＋显著声明明确告知用户许可证变更）
 
 ## 6 spec文件License字段书写参考
 spec文件中的License字段代表软件整体应遵守的开源许可证情况，为解决因许可证格式不统一引起的歧义(例如Apache-2.0，被简写为ASL-2.0、Apache-2、Apache License v2.0等)，应按照SPDX格式要求统一License字段书写格式。spec文件中License字段书写规范如下：
