@@ -40,7 +40,7 @@
  ```
 1. 即前半段使用请使用ERFL/ERFC，后半段增加该文件的出处声明，尽可能同时包含开发开发者/开发组织的名字和项目的名字。后半段的出处声明为最佳实践，不做强制要求。   
 2. 实践中，项目不一定有项目级的copyright声明（RPC),这种情况下，可不写Copyright声明，用后半段的出处声明替代，被认为是合规的。
-3. Referenced Project应为最源头的项目，实践中需要注意结合工具和开发者经验判断片段的最源头，举例：你从Fedora的Kernel中拷贝了一个文件，但可能，Fedora Kernel也是从Linux Kernel中拷贝的该文件，该例中Referenced Project应为Linux Kernel而非Fedora Kernel.判断最源头，有利于你避免你的上游不合规而它引入的风险。
+3. Referenced Project应为最源头的项目，实践中需要注意结合工具和开发者经验判断片段的最源头，举例：你从Fedora的Kernel中拷贝了一个文件，但可能，Fedora Kernel也是从Linux Kernel中拷贝的该文件，该例中Referenced Project应为Linux Kernel而非Fedora Kernel.判断最源头，有利于你避免由上游不合规而引入的风险。
 
 
 ## 风险二：源代码级的License冲突风险治理规则
@@ -49,7 +49,7 @@
 2. **源代码片段引用容易引入源码级的License冲突**。举例：在MulanPSL-2.0的项目中引入了GPL-2.0-only的代码片段。
 3. 实践中，我们一般不考虑文件和文件的License的冲突，**只考虑项目和其中文件的License冲突**，如果项目和其中每个文件的License兼容，则项目中的两两文件也不存在冲突。即只需要检查本地项目的License声明(LPL)与被引用文件的“实际的”License是否存在冲突。
 ### 治理规则：
-![license兼容表](./Floss-license-slide-image.svg.png)
+![license兼容表](./img/Floss-license-slide-image.svg.png)
 > License compatibility between common FOSS software licenses according to David A. Wheeler (2007): the arrows denote a one directional compatibility, therefore better compatibility on the left side than on the right side.
 
 
