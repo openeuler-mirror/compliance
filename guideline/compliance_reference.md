@@ -159,7 +159,27 @@ Copyright (c) XXXX（Copyright owner） Co., Ltd. YYYY. All rights reserved.
 
 ***THE COPYRIGHT NOTICE END***
 ```
+### 扩展：采用SPDX标准声明文件头版权信息
 
+SPDX标准同样提供了文件头版权信息推荐格式，但目前并未广泛使用。新建项目可以考虑采用该种格式，便于SCA工具识别。
+
+标准格式如下，其中xxxx为SPDX标准下的许可证名称，yyy-yyyy为项目时间：
+
+```
+SPDX-FileCopyrightText: yyyy-yyyy [name of copyright holder] <name@example.com>
+SPDX-License-Identifier: XXXX
+```
+
+首行为版权声明，次行为许可证声明，实际使用时需注明括号中的内容。
+
+首行按顺序说明版权信息：年份，姓名，联系地址。示例如下：项目于2015年由zzzz首次发布，最后一次更新版本在2022年，则项目的版权声明如下：
+
+```
+SPDX-FileCopyrightText: 2015-2022 [zzzz] <zzzz@example.com>
+```
+
+次行内容为声明本文件所采用的开源许可证标识符。为保证开源许可证使用规范统一，防止产生歧义，该字段需按照SPDX标准规范填写，常见的开源许可证标识符可通过SPDX License 列表查询。
+ 
 ## 4 Notice文件编写参考
 开源软件需提供NOTICE文件，用于显著声明开源软件的版权和许可证声明，一般将NOTICE文件放置于源代码根目录下。NOTICE文件是对开源项目中具体文件的版权与许可证的集合，其中包括：本开源软件以及第三方开源组件的相关信息。
 
