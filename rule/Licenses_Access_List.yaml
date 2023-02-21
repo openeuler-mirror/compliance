@@ -3194,7 +3194,7 @@ Software Licenses:
     identifier: libselinux-1.0
     fsfApproved: 'N'
     osiApproved: 'N'
-    oeApproved: 'N'
+    oeApproved: 'Y'
     lowRisk: 'N'
     black: 'N'
     blackReason: ''
