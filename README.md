@@ -15,13 +15,13 @@ openEuler 作为操作系统开源社区，本身使用是的木兰 V2 版本协
 ---
 
 ### License & Copyright 合规
-一般公众都认为开源代码是可以“免费”使用的，但这里的”免费“并不意味着可以随心所欲，而是要遵循License的约束，那么
+一般公众都认为开源代码是可以“免费”使用的，但这里的“免费”并不意味着可以随心所欲，而是要遵循License的约束，那么
 - 到底License是什么？
 - 开源代码的作者又为什么有权力指定License，进而对使用者进行约束呢？
-- 开源领域的License和Copyright全规具体包含哪些方面呢？
+- 开源领域的License和Copyright合规具体包含哪些方面呢？
 
 本章节将尝试为大家一一解释：
-1. [理解Copyright和License的本质](https://gitee.com/openeuler/compliance/blob/master/guideline/drafts/Concept.md)
+1. [理解Copyright和License的本质](https://gitee.com/openeuler/compliance/blob/master/guideline/drafts/concept.md)
 2. [License和Copyright合规](https://gitee.com/openeuler/compliance/blob/master/guideline/drafts/license.md)
 3. [FAQ](https://gitee.com/openeuler/compliance/blob/master/guideline/drafts/faq.md)
 4. [术语与缩略语](https://gitee.com/openeuler/compliance/blob/master/guideline/drafts/terms.md)
