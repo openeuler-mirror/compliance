@@ -47,7 +47,7 @@ CC-BY-SA-4.0
             <br>          
             <a href="https://gitee.com/openeuler/compliance/blob/master/doc/rule/Snippet引用风险治理规则.md"> 片段引用合规性自检</a>
             <br>         
-            <a href="https://gitee.com/openeuler/compliance/blob/master/doc/guideline/CLA-Guideline.md"> 贡献者协议</a>
+            <a href="https://gitee.com/openeuler/compliance/blob/master/doc/guideline/cla-guideline.md"> 贡献者协议</a>
             <br>          
             <a href="https://gitee.com/openeuler/compliance/blob/master/doc/rule/baseline.md"> SPEC License校验</a>
             <br>
