@@ -30,8 +30,6 @@ This chapter will give some explanations:
 
 We hope that the SIG can develop rules that meet the community, build the rules into processes, implement these rules through tools and engineering methods, and provide solutions or services to organizations and individuals participating in the community.
 
-
-
 #### Goal
 1. Sort out business issues.
 2. Gain insights into industry benchmark communities, standards, rules, and methodologies.
@@ -57,4 +55,9 @@ We hope that the SIG can develop rules that meet the community, build the rules 
 5.  The manual of Gitee [https://gitee.com/help](https://gitee.com/help)
 6.  The most popular members  [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
 
+#### SIG operation
 
+- [Conference agenda Reporting Address](https://etherpad.openeuler.org/p/sig-compliance-meetings)
+- [Summary of Past Meetings](https://gitee.com/openeuler/compliance/blob/master/SIG_OM/meeting.md)
+- [Previous conference materials](https://gitee.com/openeuler/compliance/tree/master/meeting_materials)
+- [screen address](https://space.bilibili.com/527064077)
