@@ -56,9 +56,26 @@ openEuler 作为操作系统开源社区，本身使用是的木兰 V2 版本协
 5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
 6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
 
-#### SIG运作
+---
+
+### 成员
+
+
+### Maintainer列表
+
+- 高琨[@king-gao](https://gitee.com/king-gao),*king.gao@huawei.com*
+- 马全一[@genedna](https://gitee.com/genedna),*eli@patch.sh*
+- 魏建刚[@bugflyfly](https://gitee.com/bugflyfly),*wei_jiangang@hoperun.com*
+- 许渊聪[@sectrend_xyc](https://gitee.com/sectrend_xyc), *yuancong.xu@sectrend.com.cn*
+- 王悦良[@wangyueliang](https://gitee.com/wangyueliang), *wangyueliang@kylinos.cn*
+- 陈一雄[@YixiongChen](https://gitee.com/YixiongChen),*975102023@qq.com*
+- 丁紫薇[@dingziwei](https://gitee.com/dingdingaaaaa),*dingziwei@kylinos.cn*
+
+---
+
+### SIG运作
 - [议题申报地址](https://etherpad.openeuler.org/p/sig-compliance-meetings)
 - [往期会议纪要](https://gitee.com/openeuler/compliance/blob/master/SIG_OM/meeting.md)
 - [往期会议材料](https://gitee.com/openeuler/compliance/tree/master/meeting_materials)
 - [录屏地址](https://space.bilibili.com/527064077)
- 
+

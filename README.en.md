@@ -55,9 +55,19 @@ We hope that the SIG can develop rules that meet the community, build the rules 
 5.  The manual of Gitee [https://gitee.com/help](https://gitee.com/help)
 6.  The most popular members  [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
 
-#### SIG operation
+### Member
 
-- [Conference agenda Reporting Address](https://etherpad.openeuler.org/p/sig-compliance-meetings)
-- [Summary of Past Meetings](https://gitee.com/openeuler/compliance/blob/master/SIG_OM/meeting.md)
-- [Previous conference materials](https://gitee.com/openeuler/compliance/tree/master/meeting_materials)
-- [screen address](https://space.bilibili.com/527064077)
+### Maintainer List
+- Gaokun[@king-gao](https://gitee.com/king-gao),*king.gao@huawei.com*
+- MaQuanyi[@genedna](https://gitee.com/genedna),*eli@patch.sh*
+- WeiJiangang[@bugflyfly](https://gitee.com/bugflyfly),*wei_jiangang@hoperun.com*
+- XuYuancong[@sectrend_xyc](https://gitee.com/sectrend_xyc), *yuancong.xu@sectrend.com.cn*
+- WangYueliang[@wangyueliang](https://gitee.com/wangyueliang), *wangyueliang@kylinos.cn*
+- ChenYixiong[@YixiongChen](https://gitee.com/YixiongChen),*975102023@qq.com*
+- DingZiwei[@dingziwei](https://gitee.com/dingdingaaaaa),*dingziwei@kylinos.cn*
+
+### SIG Operation
+- [Topic Link](https://etherpad.openeuler.org/p/sig-compliance-meetings)
+- [Minutes Of Previous Meetings](https://gitee.com/openeuler/compliance/blob/master/SIG_OM/meeting.md)
+- [Materials From Previous Meetings](https://gitee.com/openeuler/compliance/tree/master/meeting_materials)
+- [Screen Recording Link](https://space.bilibili.com/527064077)
