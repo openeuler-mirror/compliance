@@ -6969,7 +6969,7 @@ Software Licenses:
     black: 'N'
     blackReason: ''
     exception: 'Y'
-    review: 'N'
+    review: 'Y'
   - alias:
     - exceptions
     - exception
