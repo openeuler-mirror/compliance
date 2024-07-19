@@ -31,7 +31,7 @@
     <td>代码仓责任人解压源码包、查看具体License声明并修正</td>
   </tr>
   <tr>
-    <td>不存在与准入清单中的新License</td>
+    <td>不存在于准入清单中的新License</td>
     <td>代码仓责任人解压源码包、查看License声明信息，并在合规SIG仓下提交License审阅申请issue，参考审阅流程：<a href="https://gitee.com/openeuler/compliance/blob/master/doc/rule/合规SIG组License准入审阅流程.md"> License准入审阅流程</a></td>
   </tr>
 </table>
