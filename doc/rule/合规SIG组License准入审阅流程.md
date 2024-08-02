@@ -8,12 +8,14 @@
 2. **输入件 (流程发起资料表单）**：
     1. License ID ：如果该License在SPDX list 中，则使用SPDX identifier, 否则参考使用的最多的名字，定义一个ID
     2. License SPDX Identifier : 如果不在SPDX list中，则该项必须为空 
-    3. License别名： 可以有多个
-    4. License 的原文
-    5. License 的原始出处: 该License原始出处的项目的网站（如有）和该License出处的描述 
-    6. 该License的相近版本：请给出该License FSF or OSI认证的相近的版本，并给出Diff.
-    7. License的使用的情况：一段表述该License流行度的文字。 
-    8. License的涉及的负面的诉讼和争议情况：描述该类情况的文字。
+    3. License 别名：可以有多个
+    4. License原文
+    5. License原始出处: 该License原始出处的项目的网站（如有）和该License出处的描述 
+    6. License是否被FSF或者OSI认可：FSF: <Yes|No>; OSI: <Yes|No>;
+    7. License相近版本: 请给出该License FSF or OSI认证的相近的版本，并给出Diff(如有).
+    8. License使用情况：请列明该License在其他Linux发行版中的认可度(必须覆盖Debian/Fedora/openSUSE)
+    9. License影响范围：请给出该License影响哪些软件包源码仓库，并明确其二进制发布范围，当前有效范围包括Core/BaseOS/Everything/EPOL/Other
+    10. License的涉及的负面的诉讼和争议情况：描述该类情况的文字(如有)。
 3. **输出件**：
     1. 该License是否为openEuler approved的 “开源的” License.
     2. 该License 是否为openEuler 标记的”非开源需限制使用的“(简称：受限使用) 的License
@@ -38,3 +40,10 @@
     2. 审阅过程：
         1. 审阅申请资料和投票情况，通过合规SIG组会议纪要发出
         2. 审阅申请资料和投票情况，在compliance仓库中存档
+7. **参考资料**:
+    1. FSF查询站点：[https://www.gnu.org/licenses/license-list.html](https://www.gnu.org/licenses/license-list.html)
+    2. OSI查询站点：[https://opensource.org/licenses](https://opensource.org/licenses/)
+    3. Linux发行版License认可度查询站点：
+        1. Debian: [https://wiki.debian.org/DFSGLicenses](https://wiki.debian.org/DFSGLicenses)
+        2. Fedora: [https://docs.fedoraproject.org/en-US/legal/license-approval/#Software_License_List](https://docs.fedoraproject.org/en-US/legal/license-approval/#Software_License_List)
+        3. openSUSE: [https://en.opensuse.org/openSUSE:Accepted_licences](https://en.opensuse.org/openSUSE:Accepted_licences)
